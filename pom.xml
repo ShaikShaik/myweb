@@ -124,10 +124,10 @@
 	</profiles>
 
   <scm>
-    <connection>scm:git:git@github.com:jleetutorial/maven-project.git</connection>
-    <developerConnection>scm:git:git@github.com:jleetutorial/maven-project.git</developerConnection>
+    <connection>scm:git:git@github.com:ShaikShaik/myweb.git</connection>
+    <developerConnection>scm:git:git@github.com:ShaikShaik/myweb.git</developerConnection>
     <tag>HEAD</tag>
-    <url>http://github.com/jleetutorial/maven-project</url>
+    <url>https://github.com/ShaikShaik/myweb.git</url>
   </scm>
 	
 </project>
