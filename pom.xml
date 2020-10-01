@@ -137,11 +137,5 @@
     </profile>	 -->
 	</profiles>
 
-  <scm>
-    <connection>scm:git:git@github.com:ShaikShaik/myweb.git</connection>
-    <developerConnection>scm:git:git@github.com:ShaikShaik/myweb.git</developerConnection>
-    <tag>HEAD</tag>
-    <url>https://github.com/ShaikShaik/myweb.git</url>
-  </scm>
 	
 </project>
