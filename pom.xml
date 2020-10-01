@@ -38,7 +38,6 @@
 		  <scope>test</scope>
 		</dependency> -->
 	</dependencies>
-	//adding some crap to be deleted
 	<distributionManagement>
 		<repository>
 			<id>nexus</id>
