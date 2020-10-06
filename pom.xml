@@ -90,12 +90,7 @@
           <artifactId>maven-release-plugin</artifactId>
           <version>2.3.2</version>
         </plugin>
-	<plugin>
-	mvn build-helper:parse-version versions:set \
-   release:prepare \
-      -DdevelopmentVersion =\${parsedVersion.majorVersion}.\${parsedVersion.nextMinorVersion}.0-SNAPSHOT \
-   release:perform
-	</plugin>
+			
 <plugin>
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-surefire-plugin</artifactId>
@@ -140,5 +135,6 @@
       </dependencies>
     </profile>	 -->
 	</profiles>
+
 	
 </project>
