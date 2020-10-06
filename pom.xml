@@ -141,32 +141,4 @@
     </profile>	 -->
 	</profiles>
 	
-	<profile>
-  <id>customversionnumber</id>
-  <build>
-	  </profile>
-  <plugins>
-
-      <plugin>
-        <groupId>org.codehaus.gmaven</groupId>
-        <artifactId>groovy-maven-plugin</artifactId>
-        <executions>
-          <execution>
-            <id>set-release-version</id>
-            <phase>initialize</phase>
-            <goals>
-                <goal>execute</goal>
-            </goals>
-            <configuration>
-              <source>
-                  project.properties.setProperty("releaseVersion","1.3.0")
-                  System.out.println("releaseVersion set to 1.3.0")
-              </source>
-            </configuration>
-          </execution>
-        </executions>
-      </plugin>
-      </plugins>
-
-	
 </project>
