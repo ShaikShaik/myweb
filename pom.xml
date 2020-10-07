@@ -11,6 +11,11 @@
 	<properties>
    <maven.tomcat.url>http://localhost:9080/manager/text</maven.tomcat.url>
 </properties>
+<properties>
+<java.version>1.8</java.version>
+<maven.compiler.source>1.8</maven.compiler.source>
+<maven.compiler.target>1.8</maven.compiler.target>
+</properties>
 	<dependencies>
 		<dependency>
 			<groupId>javax.servlet</groupId>
